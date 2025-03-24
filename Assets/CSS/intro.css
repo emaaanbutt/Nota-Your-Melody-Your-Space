@@ -51,6 +51,24 @@ input::placeholder{
     color: rgb(255, 243, 80);
 }
 
+
+#invalid-name{
+    margin-top: 0.5rem;
+}
+
+#invalid-name span, #invalid-avatar span{
+    text-align: left;
+    color: red
+}
+
+.hidden{
+    display: none;
+}
+
+.display{
+    display: flex;
+}
+
 #avatar-container{
     display: flex;
     flex-wrap: wrap;
@@ -61,14 +79,13 @@ input::placeholder{
     gap: 10px;
 }
 
-#avatar-container div{
+#avatar-container li{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid black;
 }
 
-#avatar-container div:hover{
+#avatar-container img:hover{
     border: 2px solid rgb(255, 65, 138);
 }
 
@@ -76,9 +93,23 @@ input::placeholder{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    border: 2px solid white;
 }
 
+.selected{
+    border-color: rgb(255, 65, 138) !important;
+}
 
+#btn{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 65, 138);
+    color: rgb(255, 243, 80);
+}
+
+#btn:hover{
+    cursor: pointer;
+}
 
 
 

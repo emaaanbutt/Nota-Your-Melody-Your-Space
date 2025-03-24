@@ -18,30 +18,42 @@
                 <p>But first, let’s make this personal… Please tell us your name ✨</p>
             </div>
             <input id="name" type="text" placeholder="John Doe" required>
+            <div id="invalid-name">
+                <span class="hidden">Name is required</span>
+            </div>
             <div id="pick-avatar">
                 <p>Pick an avatar that matches your music soul! 🎧🔥</p>
             </div>
+            <div id="invalid-avatar">
+                <span class="hidden">Avatar is required</span>
+            </div>
             <ul id="avatar-container">
-               <li>
-                <div><img src="../Assets/Images/avatar1.jpg" alt="a man with headphones"></div>
-               </li>
-               <li>
-                <div><img src="../Assets/Images/avatar2.jpg" alt=""></div>
-               </li>
-               <li>
-                <div><img src="../Assets/Images/avatar3.jpg" alt=""></div>
-               </li>
-               <li>
-                <div><img src="../Assets/Images/avatar4.jpg" alt=""></div>
-               </li>
-               <li>
-                <div><img src="../Assets/Images/avatar5.jpg" alt=""></div>
-               </li>
-               <li>
-                <div><img src="../Assets/Images/avatar6.jpg" alt=""></div>
-               </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar1.jpg" alt="a man wearing headphones" data-value="avatar1">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar2.jpg" alt="a woman wearing headphones" data-value="avatar2">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar3.jpg" alt="a man wearing headphones" data-value="avatar3">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar4.jpg" alt="a man wearing headphones" data-value="avatar4">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar5.jpg" alt="a woman wearing headphones" data-value="avatar5">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar6.jpg" alt="a woman wearing headphones" data-value="avatar6">
+                </li>
             </ul>
+            <button id="btn">
+                Get Started
+            </button>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="../script/intro.js" charset="UTF-8"></script>
 </body>
 </html>
