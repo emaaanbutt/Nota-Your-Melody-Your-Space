@@ -50,4 +50,5 @@ $(".icon").on("click", function () {
 let username = localStorage.getItem("username");
 let avatar = localStorage.getItem("avatar");
 
-
+$("#greeting h2").text(`Hi ${username}`);
+$("#profile img").attr("src", avatar);
