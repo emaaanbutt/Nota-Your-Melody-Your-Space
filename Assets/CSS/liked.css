@@ -1,4 +1,10 @@
-#main-page{
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#liked-page{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -6,12 +12,13 @@
 
 }
 
-#main-page > img{
+#liked-page > img{
     position: absolute;
     width: 100%;
     height: 100%;
     margin: 0;
     z-index: -1;
+    
 }
 
 #container{
@@ -26,34 +33,18 @@
     top: 2rem;
 }
 
-#greeting h2{
+#heading h2{
     font-size: 2.5rem;
 }
 
-#search-songs{
-    width: 50%;
-    height: 2.5rem;
-    border-radius: 10px;
-    border: none;
-    padding-left: 10px;
-    font-size: 1rem;
-    background-color: #ffa90b;
-
-}
-
-#trending > h3{
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-#trending-container{
+#liked-list{
     list-style: none;
     width: 60%;
     margin-top: 1.3rem;
 }
 
 
-.trending-song{
+.liked-song{
     width: 95%;
     height: 2.5rem;
     border: 2px solid rgb(19, 187, 187);
@@ -63,7 +54,7 @@
     position: relative;
 }
 
-.trending-song:hover{
+.liked-song:hover{
     border-color:#ffa90b;
     cursor: pointer;
 }
@@ -101,6 +92,7 @@
 .icon img{
     width: 4rem;
     padding-bottom: 0.2rem;
+    
 }
 
 .icon:hover{
@@ -111,13 +103,3 @@
     border-bottom: 5px solid white !important;
 }
 
-@media (max-width: 600px){
-    .trending-song{
-        width: 100%;
-    }
-
-    .dropdown-menu{
-        width: 65%;
-    }
-
-}
