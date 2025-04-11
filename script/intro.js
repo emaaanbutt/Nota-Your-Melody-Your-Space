@@ -70,7 +70,11 @@ function handleAvatarInput()
 $("#btn").on("click", function(){
     if (isValid($("#name").val()) && isAvatarSelected())
     {
+        let avatar = $(".avatar-option img.selected").attr("src");  
+        let username = $("#name").val(); 
         window.location.href = "main.html";
+        localStorage.setItem("username",username);
+        localStorage.setItem("avatar",avatar);
     }
     else{
         handleNameInput();

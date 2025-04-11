@@ -46,3 +46,8 @@ $(".icon").on("click", function () {
     $(".icon").removeClass("active"); 
     $(this).addClass("active"); 
 });
+
+let username = localStorage.getItem("username");
+let avatar = localStorage.getItem("avatar");
+
+
