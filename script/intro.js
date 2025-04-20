@@ -67,7 +67,7 @@ function handleAvatarInput()
 }
 
 
-$("#btn").on("click", function(){
+$(".btn").on("click", function(){
     if (isValid($("#name").val()) && isAvatarSelected())
     {
         let avatar = $(".avatar-option img.selected").attr("src");  

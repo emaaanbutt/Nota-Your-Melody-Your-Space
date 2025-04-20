@@ -106,14 +106,14 @@ input::placeholder{
     border-color: rgb(255, 65, 138) !important;
 }
 
-#btn{
+.btn{
     font-size: 1.5rem;
     border-radius: 10px;
     background-color: rgb(255, 65, 138);
     color: rgb(255, 243, 80);
 }
 
-#btn:hover{
+.btn:hover{
     cursor: pointer;
 }
 

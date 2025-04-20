@@ -32,6 +32,13 @@ html, body {
     top: 10rem;
 }
 
+#cont{
+    width: 70%;
+    background-color: aqua;
+}
+
+
+
 
 #icons-container{
     display: flex;
@@ -56,4 +63,5 @@ html, body {
 .active{
     border-bottom: 5px solid white !important;
 }
+
 
