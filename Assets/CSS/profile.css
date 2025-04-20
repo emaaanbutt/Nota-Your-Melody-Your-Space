@@ -32,12 +32,10 @@ html, body {
     top: 10rem;
 }
 
-#cont{
-    width: 70%;
-    background-color: aqua;
+#save-btn{
+    margin-top: 0.5rem;
+    display: none;
 }
-
-
 
 
 #icons-container{
