@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nota – Your Melody, Your Space</title>
 
+    <link rel="stylesheet" href="../Assets/CSS/intro.css">
     <link rel="stylesheet" href="../Assets/CSS/profile.css">
 </head>
 <body>
@@ -12,10 +13,71 @@
         <img src="../Assets/Images/music-bg.jpeg" alt="musical instruments in background">
 
         <div id="container">
+            
 
+            <h2>Your name :</h2>
+            <input id="name" type="text" placeholder="John Doe" required>
+            <div id="invalid-name">
+                <span class="hidden">Name is required</span>
+            </div>
+            <div id="pick-avatar">
+                <p>Pick an avatar that matches your music soul! 🎧🔥</p>
+            </div>
+            <div id="invalid-avatar">
+                <span class="hidden">Avatar is required</span>
+            </div>
+            <ul id="avatar-container">
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar1.jpg" alt="a man wearing headphones" data-value="avatar1">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar2.jpg" alt="a woman wearing headphones" data-value="avatar2">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar3.jpg" alt="a man wearing headphones" data-value="avatar3">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar4.jpg" alt="a man wearing headphones" data-value="avatar4">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar5.jpg" alt="a woman wearing headphones" data-value="avatar5">
+                </li>
+                <li class="avatar-option">
+                    <img src="../Assets/Images/avatar6.jpg" alt="a woman wearing headphones" data-value="avatar6">
+                </li>
+            </ul>
+            <button id="btn">
+                Get Started
+            </button>
+
+            <div id="icons-container">
+                <div id="liked-songs" class="icon">
+                  <a title="Liked songs" href="./liked.html">
+                    <img src="../Assets/Images/liked-songs.png" alt="liked songs icon">
+                  </a>
+                </div>
+                <div id="search" class="icon">
+                  <a title="Search songs" href="./main.html">
+                    <img src="../Assets/Images/search.png" alt="liked songs icon">
+                  </a>
+                </div>
+                <div id="playlist" class="icon">
+                  <a title="Your playlists" href="">
+                    <img src="../Assets/Images/playlist.png" alt="liked songs icon">
+                  </a>
+                </div>
+                <div id="profile" class="active icon">
+                  <a title="Profile" href="../pages/profile.html">
+                    <img src="../Assets/Images/profile.png" alt="profile icon">
+                  </a>
+                </div>
+              </div>
         </div>
-
     </div>
     
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="../script/main.js"></script>
+    <script src="../script/profile.js"></script>
 </body>
 </html>

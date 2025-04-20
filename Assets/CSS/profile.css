@@ -29,5 +29,31 @@ html, body {
     z-index: 100;
     height: 100vh;
     position: relative;
-    top: 2rem;
+    top: 10rem;
 }
+
+
+#icons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 20.3rem;
+}
+
+.icon img{
+    width: 4rem;
+    padding-bottom: 0.2rem;
+    border-radius: 10px;
+    
+}
+
+.icon:hover{
+    border-bottom: 5px solid white;
+}
+
+.active{
+    border-bottom: 5px solid white !important;
+}
+
