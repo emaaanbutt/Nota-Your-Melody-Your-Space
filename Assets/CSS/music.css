@@ -29,6 +29,27 @@ html, body {
     height: 100vh;
 }
 
+#back-btn{
+    width: 120px;
+    height: 45px;
+    background-color: rgb(255, 65, 138) ;
+    margin-bottom: 1rem;
+    display: grid;
+    place-content: center;
+    border-radius: 20px;
+
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(54, 160, 137);
+}
+
+#back-btn:hover{
+    color: rgb(255, 65, 138);
+    background-color: white ;
+}
 
 .audio-player {
     background: rgb(54, 160, 137);
@@ -60,7 +81,6 @@ html, body {
 }
 
 .track-artist {
-    color: #666;
     font-size: 0.9rem;
 }
 
@@ -88,7 +108,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     font-size: 0.8rem;
-    color: #666;
+    color: white;
     margin-top: 5px;
 }
 
