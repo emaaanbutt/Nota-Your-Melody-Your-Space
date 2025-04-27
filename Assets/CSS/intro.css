@@ -85,7 +85,7 @@ input::placeholder{
     gap: 10px;
 }
 
-#avatar-container li{
+#avatar-container li, .selected-avatar{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -95,14 +95,14 @@ input::placeholder{
     border: 2px solid rgb(255, 65, 138);
 }
 
-#avatar-container img{
+#avatar-container img, .selected-avatar img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
     border: 2px solid white;
 }
 
-.selected{
+.selected, .selected-avatar img{
     border-color: rgb(255, 65, 138) !important;
 }
 

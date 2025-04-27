@@ -4,14 +4,7 @@ $(function(){
 
 
     $("#name").val(username);
-
-    const avatars = document.querySelectorAll(".avatar-option img");
-
-    avatars.forEach(function(avatar){
-        if ($(avatar).attr("src") == avatar){
-            avatar.classList.add("selected");
-        }
-    });
+    $(".selected-avatar img").attr("src", avatar);
 
     $("#name").on("input", function(){
         $("#save-btn").show();

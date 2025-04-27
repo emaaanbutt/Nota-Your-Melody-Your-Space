@@ -52,3 +52,9 @@ let avatar = localStorage.getItem("avatar");
 
 $("#greeting h2").text(`Hi ${username}`);
 $("#profile img").attr("src", avatar);
+
+$(function(){
+    $(".trending-song").on("click", function(){
+        window.location.href = "music.html";
+    });
+});
