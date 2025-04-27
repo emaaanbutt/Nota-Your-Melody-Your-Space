@@ -29,13 +29,15 @@ html, body {
     height: 100vh;
 }
 
+
 .audio-player {
-    background: plum;
+    background: rgb(54, 160, 137);
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     max-width: 400px;
+}
 
 .album-art {
     width: 200px;
@@ -77,7 +79,7 @@ html, body {
 
 .progress {
     height: 100%;
-    background: linear-gradient(90deg, #1db954, #1ed760);
+    background: linear-gradient(90deg, rgb(255, 65, 138), rgb(252, 39, 120));
     width: 30%;
     transition: width 0.1s linear;
 }
@@ -119,12 +121,12 @@ html, body {
 .control-btn.play-pause {
     width: 50px;
     height: 50px;
-    background: #1db954;
+    background: rgb(255, 65, 138);
     color: white;
 }
 
 .control-btn.play-pause:hover {
-    background: #1ed760;
+    background: rgb(255, 65, 138);
 }
 
 .volume-container {
@@ -145,7 +147,7 @@ html, body {
 
 .volume-level {
     height: 100%;
-    background: #1db954;
+    background: rgb(255, 65, 138);
     border-radius: 2px;
     width: 70%;
 }
@@ -161,7 +163,7 @@ html, body {
 
 .bar {
     width: 3px;
-    background: #1db954;
+    background: rgb(255, 65, 138);
     border-radius: 3px;
     animation: bounce 1s infinite;
 }
